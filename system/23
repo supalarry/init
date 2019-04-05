@@ -1,0 +1,9 @@
+In addition to using useradd, it is possible
+to go to settings, Users and then add user.
+Using ssh session, for example, to add a new
+user to a remote server, administrator needs
+to edit /etc/ssh/sshd_config folder. As root,
+sshd_config file should be appended port number
+to which SSH is listening for user to connect.
+Furthermore, using AllowUsers, we can list which
+IP is allowed to log in. 

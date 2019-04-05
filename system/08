@@ -1,0 +1,11 @@
+~/.ssh/authorized_keys file contains
+public keys of users that can connect
+to remote server via SSH. Server
+then encrypts a message using public key
+pointed out by the user. Using that key
+text is encrypted, and it can be decrypted
+only with private key. In addition to text,
+session ID is added to create a hash value
+that is sent back to server. If hash value
+is the value of the text and ID, then the device
+connecting to remote server is authorised.

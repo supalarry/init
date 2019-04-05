@@ -1,0 +1,4 @@
+To make this change permanent, user must edit
+/etc/hostname file to the desired hostname.
+This has to be done using superuser permission,
+which can be obtained by using sudo.

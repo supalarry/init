@@ -1,0 +1,8 @@
+When using traceroute to connect to slash16.org,
+it can be seen that first two IP addresses are
+local. It is indicated by the fact that they both
+start with 10. Three groups of private IPs are
+IPs that start with 10, 172.16 to 172.31 or 192.168.
+In this case, 10.11.1.254 is IP of a router and then
+another device has IP of 10.60.1.1., which could be
+NAT to translate local IP into a public IP.

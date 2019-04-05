@@ -1,0 +1,6 @@
+at command could be used to run once, but
+cron is used to execute scheduled commands
+at varying times in perpetuity. To do so,
+write crontab -e to edit current crontab
+where you can input commands to be run at
+regular intervals.

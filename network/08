@@ -1,0 +1,6 @@
+Provider is the company that hosts the website. Hosting
+means dedicating space for contents of website, and also
+offering services, like e-mail. To find host of a
+website, following command line can be used:
+whois slash16.org | grep Registrar: | cut -d ' ' -f2-
+The result is Online SAS, which hosts the domain.

@@ -1,0 +1,7 @@
+It is possible to make a manual entry
+in /etc/hosts file. On the left column,
+one must write 46.19.122.85 and on the
+right column, intra.42.fr. Next time
+someone writes intra.42.fr in browser,
+he/she will be redirected to IP we have
+provided.

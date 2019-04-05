@@ -1,0 +1,5 @@
+/etc/hosts contains local DNS entries.
+Once a domain name is entered in browser,
+system will check in this file if IP
+address is already known. If so, continue
+to it. If not, then request IP from DNS.

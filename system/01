@@ -1,0 +1,5 @@
+In debian running on virtualbox,
+one has to run terminal and write
+cat /etc/debian_version to view the file
+containing version of debian. Currently,
+debian 9.8 is running.

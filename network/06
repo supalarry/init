@@ -1,0 +1,9 @@
+To obtain IP address of DNS server in command line, 
+you must write host -a domain.com | grep from.
+host performs DNS lookup, translating domain name
+into a dotted decimal IP address or vice versa.
+To fulfill this request, host uses IP address of
+name server listed in /etc/resolv.conf to connect
+to a name server and find IP address of a domain
+name. To view IP address of name server resolving
+domain name to IP, write cat /etc/resolv.conf.
